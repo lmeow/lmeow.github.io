@@ -1,0 +1,31 @@
+html,
+.img-component {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	/*	background-image: url("./components/images/painting_bw.JPG");
+	background-repeat: no-repeat;*/
+	/*	background-size: 100%;
+*/
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+.MuiPaper-elevation4 {
+	box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0),
+		0px 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+::selection {
+	color: black;
+	background: pink;
+	text-shadow: 5px 5px 3px yellow;
+}

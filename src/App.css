@@ -1,0 +1,89 @@
+.picture-first-page {
+  height: 100vmin;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  text-align: center;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: pink;
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+}
+
+.container-first-page {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+}
+
+.container-second-page {
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: none;
+}
+
+.MuiPaper-root {
+  transition-property: none;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  font-size: 3em;
+  font-family: "Lucida Console", Monaco, monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo:hover {
+  color: yellow;
+}
+
+.over-logo {
+  height: 350px;
+  display: inline-flex;
+}
+
+.about-over-header {
+  height: 150px;
+  display: inline-flex;
+}
+.below-logo {
+  height: 450px;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 3em;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: yellow;
+}
+
+.about-header:hover {
+  color: white;
+  background: black;
+}
+.about-below-header {
+  height: 100px;
+}
+p.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  font-size: 1em;
+  font-family: "Lucida Console", Monaco, monospace;
+  background: yellow;
+}
