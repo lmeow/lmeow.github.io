@@ -9,10 +9,8 @@ html,
 }
 
 body {
-	/*	background-image: url("./components/images/painting_bw.JPG");
-	background-repeat: no-repeat;*/
-	/*	background-size: 100%;
-*/
+	background-color: #fffffe;
+	
 }
 
 code {
@@ -26,6 +24,6 @@ code {
 
 ::selection {
 	color: black;
-	background: pink;
+	background: #ffcd99;
 	text-shadow: 5px 5px 3px yellow;
 }
